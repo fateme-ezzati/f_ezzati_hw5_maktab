@@ -330,26 +330,32 @@ html {
     font-weight: bold;
     font-size: 18px;
 }
-.part2{
+
+.part2 {
     width: 100%;
     float: left;
 }
-.p2_card{
+
+.p2_card {
     width: 48%;
     height: 90px;
     margin-bottom: 25px;
     float: left;
 
 }
-.p2_card>p{
+
+.p2_card>p {
     line-height: 1.4;
 }
-.p2_card:nth-of-type(even){
+
+.p2_card:nth-of-type(even) {
     float: right;
 }
-.p2_card>h2{
+
+.p2_card>h2 {
     margin-bottom: 10px;
 }
+
 .content5>footer {
     margin-bottom: 0;
     border-bottom: none;
@@ -357,19 +363,22 @@ html {
     padding-top: 10px;
     color: rgb(112, 116, 115);
 }
+
 /* //////////////////////////////// */
-.content6{
+.content6 {
     width: 100%;
     float: left;
 }
-.content6>section{
+
+.content6>section {
     width: 20px;
     position: fixed;
     right: 10px;
     top: calc((100vh - 115px)/2);
     z-index: 20;
 }
-.content6>section>a{
+
+.content6>section>a {
     width: 15px;
     height: 15px;
     display: block;
@@ -378,7 +387,8 @@ html {
     border: 2px solid white;
     cursor: pointer;
 }
-.content6>div{
+
+.content6>div {
     width: 100%;
     height: 100vh;
     color: white;
@@ -386,22 +396,28 @@ html {
     float: left;
 
 }
-.slide-1{
-    background-color: rgb(55,73,93);
+
+.slide-1 {
+    background-color: rgb(55, 73, 93);
 }
-.slide-2{
-    background-color: rgb(101,194,113);
+
+.slide-2 {
+    background-color: rgb(101, 194, 113);
 }
-.slide-3{
-    background-color: rgb(218,96,75);
+
+.slide-3 {
+    background-color: rgb(218, 96, 75);
 }
-.slide-4{
-    background-color: rgb(199,96,38);
+
+.slide-4 {
+    background-color: rgb(199, 96, 38);
 }
-.slide-5{
-    background-color: rgb(145,102,181);
+
+.slide-5 {
+    background-color: rgb(145, 102, 181);
 }
-.slide-1>div{
+
+.slide-1>div {
     width: 198px;
     height: 34px;
     line-height: 34px;
