@@ -433,8 +433,8 @@ html {
     width: 45%;
     /* height: 124px; */
     min-height: 200px;
-    border: 1px solid white;
     float: right;
+    object-fit: cover;
 }
 .content6>figure>figcaption{
     width: 220px;
