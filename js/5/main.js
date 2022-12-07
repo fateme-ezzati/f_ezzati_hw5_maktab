@@ -1,17 +1,19 @@
-let arr = ["a-b-c-d", "a-b-f-g", "m-n-l-k", "m-o-p-j", "v-q-w-e",
-"x-z-p-j"]
-console.log(generateNewArray(arr))
+let arr = ["a-b-c-d", "a-b-f-g", "m-n-l-k", "m-o-p-j", "v-q-w-e","x-z-p-j"]
 
-function generateNewArray(arr){
+generateNewArray(arr)
 
-//    return arr.filter(function(item){
-//         return item.split('').filter(function(item2){
-//             return item2!=='-'
-//         })
-//     })
+function generateNewArray(arr) {
 
+    let list = []
+    for (const key in arr) {
+        arr[key].replaceAll('-', "").split('').map(function (item, index) {
+            if (list[index]) {
+                return list[index].includes(item) ? ' ' : list[index].push(item)
+            } else {
+                return list.push([item])
+            }
+        })
+    }
 
-    arr.map(function(item){
-
-    })
+    return console.log(list)
 }
